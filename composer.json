@@ -1,0 +1,26 @@
+{
+    "type": "library",
+    "license": "proprietary",
+    "name": "studikasus/pph21",
+    "authors": [{
+        "name": "Rahmatulah Sidik",
+        "email": "blcak.gun123@gmail.com",
+        "homepage": "https://github.com/Rahmatulah12"
+    }],
+    "require": {
+        "php": "^7.2"
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true,
+        "classmap-authoritative": true,
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "StudiKasus\\PPH21\\": "src/"
+        }
+    }
+}
